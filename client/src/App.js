@@ -1,4 +1,5 @@
 import React,{useState, useEffect} from 'react'
+import Main from './Main';
 
 
 function App() {
@@ -23,9 +24,13 @@ function App() {
 
      state.map((item)=>(
        <div key={item.id}>{item.name}</div>
+       
 
      ))
    }
+
+    <Main />
+
 
     </div>
   );
